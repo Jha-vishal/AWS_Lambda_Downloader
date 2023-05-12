@@ -1,0 +1,14 @@
+{
+    "name": "lambda-exporter",
+    "version": "1.0.0",
+    "description": "Exports AWS Lambda functions to the local filesystem",
+    "main": "export.js",
+    "dependencies": {
+        "aws-sdk": "2.1323.0",
+        "fs": "0.0.1-security",
+        "unzipper": "^0.10.11",
+        "adm-zip": "^0.5.10",
+        "requests": "0.3.0",
+        "request": "2.88.2"
+    }
+}
